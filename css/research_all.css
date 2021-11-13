@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
+*{
+	font-family: 'Poppins', sans-serif;
+}
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap);
+
+
+
+/* main sections ids*/
+#body-prop{
+	background-color: #EBEBEB;
+}
+
+#header{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+
+.research-head{/* main title of the research head id*/
+	font-size:30px;
+	font-weight:none;
+	margin-top: 20px;
+}
+
+.year{/* text just below the main title customization*/
+	font-size: 34px;
+	font-weight: 300;
+}
+
+/* customization of one card*>>>>>>>>>>>>>>>>>>>>>>>>>>.*/
+.br-rad{/* card border radius control*/
+	border-radius: 15px;
+}
+
+.card-properties{/* card hight and width control*/
+	width: none;
+	height: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+
+.card-text{			/* card text customization*/
+	text-align: justify;
+	font-size: 13px;
+	font-weight: 200;
+}
+
+.cart-title{		/*card title customization*/
+	font-weight: 400;
+	font-size: none;
+	text-align: left;
+}
+
+.margin-main{/* card area main section customization*/
+	margin: none;
+}
+
+.caption-logo{/* logo position of the card */
+	bottom: none;
+	left: none;
+	position: absolute;
+	right: none;
+}
+.caption-logo img{/* contrl logo properties*/
+	width: 30px !important;
+	height: auto !important;
+}
+
+.card-logo{/* logo size customizing in the cards*/
+	height: none;
+	width: none;
+	margin: none;
+}
+
+.button-position{/* button position in the cards and responsive*/
+	bottom: none;
+	right: none;
+	position: absolute;
+	left: none;
+}
+
+.btn-outline-light{/* control border of the card button*/
+	border: none;
+}
+.btn-outline-light:hover{/* card button hover*/
+	background-color:#31ADFF;
+}
+
+button a{/*card button text*/
+	color: none;
+	font-size: none;
+}
+button a:hover{/* card text hover*/
+	color:white;
+}
+
+.text-overflow-card{/* text overflow hidden*/
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: none;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-overflow-sp{/* text overflow hidden special cases*/
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: none;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body{
+	padding-bottom: none;
+}
+/* mobile view card custom<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+#card_head {margin-right:60px; text-align: left; width: 75%;}
+#card_date {display: block; position:absolute; top: 30%; right:14px; height:auto; width:auto;}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+
+/* responsive the #of cards in a row*/
+@media all and (max-width: 575px) {
+    .deskConten{display:none;}
+	.phoneConten{display:block;}
+	.card-body{padding-bottom: 0;}
+	.card-title{font-size: 15px;}
+}
+
+@media all and (min-width: 576px) {
+    .deskConten{display: block flex;}
+	.phoneConten{display:none;}
+	.card-body{padding-bottom: 0;}
+}
+
+
+@media (min-width: 360px) {
+	.card-columns {column-count: 1;}
+	.margin-main{margin: none;}
+	.button-position{right: 5%; bottom: 10px;}
+	.research-head{font-size:40px;font-weight:300;}
+	.btn-outline-light{border:1px solid #000;}
+	 button a{color:#000;}
+	.card-logo{width: 40px !important;height: auto !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
+	.card-title{font-size: 15px;}
+}
+
+@media (min-width: 576px) {
+	.card-columns {column-count: 2;}
+	.margin-main{margin: none;}
+	.button-position{right: 5%; bottom: 10px;}
+	.research-head{font-size:40px;font-weight:300;}
+	.btn-outline-light{border:1px solid #000;}
+	 button a{color:#000;}
+	.card-logo{width: 40px !important;height: auto !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
+	.card-title{font-size: 20px;}
+}
+
+@media (min-width: 768px) {
+	.card-columns {column-count: 2;}
+	.margin-main{margin: 40px;}
+	.button-position{right: 5%; bottom: 10px;}
+	.research-head{font-size:40px;font-weight:300;}
+	.btn-outline-light{border:1px solid #000;}
+	 button a{color:#000;}
+	.card-logo{width: 40px !important;height: auto !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
+}
+
+@media (min-width: 992px) {
+	.card-columns {column-count: 3;}
+	.margin-main{margin: 100px;}
+	.button-position{right: 5%; bottom: 10px;}
+	.card-properties{width: auto;height: 420px;}
+	.card-logo{width: 40px !important;height: auto !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
+	.btn-outline-light{border:1px solid #000;}
+	 button a{color:#000;}
+	.research-head{font-size:50px;font-weight:300;}
+	.text-overflow-card{-webkit-line-clamp: 12;}
+	.text-overflow-sp{-webkit-line-clamp: 9;}
+}
+
+@media (min-width: 1200px) {
+	.card-columns {column-count: 4;}
+	.margin-main{margin: 0px 100px 0px 100px;}
+	.card-logo{width: 40px !important;height: auto !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
+	.button-position{right: 5%; bottom: 10px;}
+	.card-properties{width: auto;height: 420px;}
+	.btn-outline-light{border:1px solid #000;}
+	 button a{color:#000;}
+	.research-head{font-size:50px;font-weight:300;}
+	.text-overflow-card{-webkit-line-clamp: 12;}
+	.text-overflow-sp{-webkit-line-clamp: 8;}
+}
+
+@media (min-width: 1450px) {
+	.text-overflow-sp{-webkit-line-clamp: 10;}
+	.text-overflow-card{-webkit-line-clamp: 16;}
+
+}
