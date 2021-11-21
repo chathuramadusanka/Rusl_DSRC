@@ -1,0 +1,521 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,500,300,300italic);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
+   
+
+    .navbar{
+       
+        background-color:white;
+  	    color:Black;
+        padding: 0.45% 0;
+        font-size: 1.4em;
+        min-height: 70px;
+        border: 1px solid transparent;
+        margin-bottom: 0;
+        border-radius: 0;
+	    font-family:'Yantramanav', sans-serif;
+        }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+     /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      margin-left: 10px;
+      margin-right: -10px;
+      background-color: #002e3b;
+      height: 100%;
+    }
+
+    .navbar-brand{
+        float: left;
+        padding: 0 15px 2px;
+		padding-top:20px;
+		padding-left:35px;
+		font-family:'Yantramanav', sans-serif;
+		font-size:30px;
+		font-weight:900;
+		height:70px;
+    }
+
+    
+    /* Set black background color, white text and some padding */
+    footer{
+        width: 100%;
+        background-color:#002e3b;
+  	    color:#99abb8;
+        padding: 50px;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-size: 10px;
+		font-family:'Sawarabi Gothic', sans-serif;
+
+    }
+        /* <<<<<<<<< Quote of the about us page>>>>>>>>>>>>*/
+    .bg-text {
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+      color: white;
+      font-weight: bold;
+      border: 3px;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 70%;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .front{
+        background-color: #002e3b; /* Fallback color */
+        background-color: #00212bb9; /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;       
+    }
+
+
+
+    .bg-image {
+        /* The image used */
+        background-image: url("/img/9.jpg");
+        
+        /* Add the blur effect */
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        
+        /* Full height */
+        height: 100%; 
+        
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* quote effect end*/
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+      .row.content {height:auto;} 
+    }
+ 
+    .navbar-inverse .navbar-nav li a{
+        color:black;
+        font-family:'Yantramanav', sans-serif;
+        background-color:white;
+    }
+
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+        color:gray;
+        background-color:white;
+        font-family:'Yantramanav', sans-serif;
+        
+    }
+	.navbar-nav li a:hover {
+        color:gray;
+        background-color:white;
+        font-family:'Yantramanav', sans-serif;
+		font-weight:400px;
+        
+    }
+    
+    .fa{
+        padding: 15px;
+        font-size: 30px;
+    }
+  
+    .fa:hover {
+        color:#D5D5D5;
+        text-decoration:none;
+    }
+
+    #icon{
+	
+        max-width: max-content;  
+    }
+    
+
+    div.align {/* text align to justify*/
+        text-align: justify;
+    } 
+
+    .content-area {/* creating whole padding to content area*/
+        width: auto;
+        margin: 0;
+        padding: 20px 20px;
+		font-family:Times, "Times New Roman", serif;
+    }
+
+    .middle-align {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sidebar-left {/* left side of the sidebar*/
+        float: left !important;
+        width: 25%;
+    }
+    .site-main {/* controlling second side*/
+        width: 74%;
+    }
+
+    .flotRight {
+        float: right !important;
+    }
+
+    header {/* header for about us text (incase we may need)*/
+        display: block;
+    }
+
+    h1.entry-title { /* header for about us text (incase we may need)*/
+        font-weight: 600;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    div.animate {/* creating animate class to slider and quate*/
+    
+        position: relative;
+        animation-name: animateimg;
+        animation-duration: 4s;
+    }
+
+    @keyframes animateimg {/* giving parameters from where to where it animates*/
+        0%   {left:0px; top:100px;}
+        100%  {left:0px; top:0px;}
+    }
+
+    @font-face{/* importig new font form font folder and giving a name*/
+        font-family: "AnticDidone";
+        src: url("/fonts/AnticDidone-Regular.otf");
+    }
+
+    .fontAjust{ /* appling easy class to call to newly added font*/
+        font-family: AnticDidone;
+    }
+
+    .blog-item-body h2.lifter{ /*text area for strong expressing somthing*/
+    
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        text-transform: none;
+        color: #000000;
+        font-size: 20px !important;
+        padding: 0px;
+        margin: 15px 0px 20px 0px;
+    }
+
+
+    .bg-dark-black{/* related to about us text block*/
+        padding: 20px 0px 0px 0px;
+        border-left: rgba(81, 124, 81, 0) 10px solid;
+        border-right: rgba(81, 124, 81, 0) 20px solid;       
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .align-right{
+        text-align: right !important;
+    }
+    
+
+    .container{
+        padding-right: 15px;
+        scroll-padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+		font-family:Times, "Times New Roman", serif;
+    }
+
+
+    .row {/* controlling margins of devided bolocks*/
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .color_blk{ /* appling for slider and qote that in the right side of devided page*/
+       /* background-color: #FFFFFF ; */
+        margin-left: -5px; 
+        margin-right: -5px; 
+        padding:5px !important; 
+        /*border-bottom:#FFFFFF 5px solid;*/
+		height:400px !important;
+    }
+
+    div.polaroid {/* controlling the box type affect in objects*/
+
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        width: 40%;
+        background-color: #F5F5F5;
+		font-family:Times, "Times New Roman", serif;
+    }
+
+    div.polaroidup{/* controlling the about us box colur and size*/
+        box-shadow: none;
+        margin-bottom: 25px;
+        width: inherit;
+        height: 120px;
+        background-color: #002e3b;
+        color: #ffffff;;
+    }
+
+    .entry-content{
+        padding-right: 5%;/*contolling the size of the text area*/
+    }
+    
+    /* cssn libraries that imported from w3school*/
+    .w3-spin{animation:w3-spin 2s infinite linear}@keyframes w3-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+    .w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+    .w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+    .w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+    .w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+    .w3-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+    .w3-animate-input{transition:width 0.4s ease-in-out}.w3-animate-input:focus{width:100%!important}
+    .w3-opacity,.w3-hover-opacity:hover{opacity:0.60}.w3-opacity-off,.w3-hover-opacity-off:hover{opacity:1}
+    .w3-opacity-max{opacity:0.25}.w3-opacity-min{opacity:0.75}
+    .w3-greyscale-max,.w3-grayscale-max,.w3-hover-greyscale:hover,.w3-hover-grayscale:hover{filter:grayscale(100%)}
+    .w3-greyscale,.w3-grayscale{filter:grayscale(75%)}.w3-greyscale-min,.w3-grayscale-min{filter:grayscale(50%)}
+    .w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
+
+
+   /* .myDIV {
+       
+        
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to right,blue 0%,red 100%),url('/img/9.jpg');
+        background-blend-mode:color-dodge;
+      }
+      body { 
+        
+        background-image: linear-gradient(to right,blue 0%,red 100%),url('img/9.jpg');
+        background-blend-mode: difference;
+      }*/
+    .research{
+        text-align:left;
+        height:80%;
+    }
+    .connect{
+        text-align:left;
+    }
+    .pt1{
+        font-family:'Yantramanav', sans-serif;
+        font-size: 22px;
+    }
+
+    .navbar-inverse .navbar-nav li a{
+    color:black;
+    }
+     
+    .carousel-caption{
+        top: 70%;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+    }
+	.carousel{
+		height:550px;
+	}
+	.carousel-inner{
+		height:550px;
+	}
+        
+    .container{
+        margin: 4% auto;
+		font-family: Times,'Times New Roman', serif;
+    }
+        
+    #icon{
+        max-width:100%;
+        margin: 1% auto;
+    }
+    /* >>>>>>>>>>> index page project images glowing effect */
+    img.hover-shadow {
+        transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    
+
+    /*>>>>>>>>>>>>>> index page project overlay of project <<<<<<<<*/
+    .overlay {
+        position: static;
+        top: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        margin-left: 0%;
+        color: white;
+        font-size: 18px;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .container1:hover .overlay {
+        opacity: 1;
+      }
+
+      .container1 {
+        position: relative;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      /*>>>>>>>>>>>> overlay end<<<<<<<<<<<<<<<<*/
+
+      /*>>>>>>>>>>>> video player <<<<<<<<<<<<<<<*/
+      video {
+        width: 100%;
+        height: auto;
+      }
+      [class*="coll-"] {
+        float: left;
+        padding: 15px;
+        width: 100%;
+      }
+      
+      @media only screen and (min-width: 600px) {
+        .coll-s-1 {width: 8.33%;}
+        .coll-s-2 {width: 16.66%;}
+        .coll-s-3 {width: 25%;}
+        .coll-s-4 {width: 33.33%;}
+        .coll-s-5 {width: 41.66%;}
+        .coll-s-6 {width: 50%;}
+        .coll-s-7 {width: 58.33%;}
+        .coll-s-8 {width: 66.66%;}
+        .coll-s-9 {width: 75%;}
+        .coll-s-10 {width: 83.33%;}
+        .coll-s-11 {width: 91.66%;}
+        .coll-s-12 {width: 100%;}
+      }
+      
+      @media only screen and (min-width: 768px) {
+        .coll-1 {width: 8.33%;}
+        .coll-2 {width: 16.66%;}
+        .coll-3 {width: 25%;}
+        .coll-4 {width: 33.33%;}
+        .coll-5 {width: 41.66%;}
+        .coll-6 {width: 50%;}
+        .coll-7 {width: 58.33%;}
+        .coll-8 {width: 66.66%;}
+        .coll-9 {width: 75%;}
+        .coll-10 {width: 83.33%;}
+        .coll-11 {width: 91.66%;}
+        .coll-12 {width: 100%;}
+      }
+      
+/* >>>>>>>>>>>>>>>>>>> end of video player >>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>> dropdown element customize <<<<<<<<<<<<<<<<<<<<<<<<<*/
+.dropdown-menu{
+    background-color: #002e3b;
+    font-size: 18px;
+    border: 1px solid rgba(31, 30, 30, 0.747);
+}
+
+/*>>>>>>>>>>>>>>>>> dropdown element customize end <<<<<<<<<<<<<<<<<<<<<<<<<*/
+/* cssn related to research content*/
+.research_site{
+	padding-left:50px;
+	padding-bottom:50px; 
+}
+.research_site_banner{
+	height:80px;
+}
+.research1{
+	padding-right:50px;
+}
+.btn-outline-secondary{
+	style="width:120px; 
+	height:40px; 
+	font-size: 20px; 
+	background:transparent; 
+	margin-top:15px; 
+	font-family:'Yantramanav', sans-serif; 
+	border-color:#cccccc;"
+}
+.btn-outline-secondary:hover{
+	background-color:#b3b3b3;
+	color:white;
+}
+
+/* cssn related to index page about_us part*/
+.img_btn{
+	border-radius:50%;
+}
+.about_video_btn{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+	padding-top:20px;
+}
+h1{
+	transition:all 4s ease;
+	font-family: Times,'Times New Roman', serif;
+}
+.about_topic{
+	padding-bottom:20px;
+	font-size:70px;
+	font-weight:700;
+	line-height:70px;
+	font-family:'Sawarabi Gothic', sans-serif;
+}
+.about_video_text{
+	font-family:Times,'Times New Roman', serif; 
+	font-size:23px; 
+	padding-top:20px;
+}
+.about_video_text1{
+	font-family:'Yantramanav', sans-serif; 
+	font-size:20px; 
+	padding-top:30px;
+}
+/*.btn{
+	width:250px;
+	height:50px;
+	font-size: 23px;
+	background-color:#3498DB;
+	font-weight: bold;
+	margin-top:15px;
+	font-family:Times,'Times New Roman', serif;
+}
+/*index page about_us page cssn end*/
+/*index page contact page cssn*/
+.index_contact_us{
+	font-family:'Yantramanav', sans-serif;
+	font-size:40px;
+	color:#002e3b;
+	height:150px;
+	background-color:#b4c2cc;
+	padding-top:45px;
+	margin-bottom:50px;
+}
+.index_contact_btn{
+	background-color:#b4c2cc;
+	height:150px;
+	margin-bottom:50px;
+	padding-top:40px;
+}

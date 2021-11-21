@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+@import url(//db.onlinewebfonts.com/c/003b8fca3be038297ff971a4f5b9195b?family=Segoe+UI+Semilight);
+
+/* section id customiz>>>>>>>>>>>>>>>>>>>>>*/
+
+#body-prop{
+	background-color: #EBEBEB; /* adding backgrond colour*/
+}
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*customize properties>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.research-head{
+	font-size:50px;
+  font-weight:300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mar-bot{
+  margin-bottom: 50px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+*
+
+/*card properties*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.br-rad{/* card border radius control*/
+	border-radius: 15px;
+}
+
+.side{
+  margin-left: none;
+  margin-right: none;
+  margin-top: 50px;
+}
+
+.side_2{
+  margin-top: 50px;
+}
+
+.card-properties{/* card hight and width control*/
+	width: none;
+	height: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+
+.card-body{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.card-title{
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.card-text{
+  font-weight: 200;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para-mar{
+  margin-bottom: 20px; 
+}
+
+.para-align{
+  text-align: justify;
+}
+
+.secound-para{
+  font-weight: 300;
+}
+
+.third-para{
+  font-weight: 300;
+}
+
+.forth-para{
+  font-weight: 300;
+}
+
+.fifth-para{
+  font-weight: 300;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*make responive*>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media all and (max-width: 575px) {
+ 
+}
+
+@media all and (min-width: 576px) {
+  
+}
+
+
+@media (min-width: 360px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+  .side{margin-left: 5%;margin-right: 10px;}
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1450px) {
+  .side{margin-left: 50px;margin-right: 50px;}
+}
+
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/

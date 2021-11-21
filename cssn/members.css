@@ -1,0 +1,111 @@
+/**{
+	font-family:'Yantramanav', sans-serif;
+}*/
+*{
+	font-family: 'Poppins', sans-serif !important;
+	
+}
+h5{
+	font-weight: 500 !important;
+}
+
+footer{
+	font-weight: none !important;
+}
+/*
+h2
+{
+		font-size: 1.7em;
+}
+	
+header {
+        display: block;
+}
+
+h1.entry-title { 
+        font-weight: 600;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        position: relative;
+}
+div.polaroid {
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	width: 40%;
+	background-color: #F5F5F5;
+}
+
+div.polaroidup{
+	box-shadow: none;
+	margin-bottom: 25px;
+	width: inherit;
+	height: 100px;
+	background-color:rgb(245, 245, 245);
+	color: #000;
+}
+.photo{
+	  background-color:transparent;
+	  padding:30px;
+}
+.detail{
+	  padding-left: 50px;
+	  font-size:30px;
+}
+.information{
+  font-size:20px;
+}
+.detail1{
+  text-align:right;
+  padding-left: 50px;
+  font-size:30px;
+}
+.information1{
+  text-align:right;
+  font-size:20px;
+}
+.relative {
+	position: relative;
+}
+
+.align-right{
+	text-align: right !important;
+}
+.item{
+padding:0px;
+}
+
+.container{
+padding-right: 15px;
+scroll-padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+.bg-dark-black{
+	padding: 0px 0px 0px 0px;
+	border-left: rgba(81, 124, 81, 0) 10px solid;
+	border-right: rgba(81, 124, 81, 0) 20px solid;       
+}
+
+.relative {
+	position: relative;
+}
+
+.align-right{
+	text-align: right !important;
+}*/
+.img-fluid, .img-thumbnail {
+	max-width: 100%;
+	height: 100%;
+ }
+
+ ::selection {
+    background: transparent; 
+    
+}
+
+a:hover{
+	color: #0056b3 !important;
+}

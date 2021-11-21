@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption {
+    top: 5%;
+    bottom: auto;
+    left: 10%;
+	text-align:left !important;
+	/*right: 650px;*/
+	
+}
+
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background-color: whitesmoke;
+  }
+
+.corousel-title1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: none;
+}
+
+.caption-logo{
+	bottom: 0% !important;
+	right: 0% !important;
+	position: absolute;
+}
+
+.slider-logo{
+	height: none;
+	width: none;
+	margin: none;
+}
+
+
+/*index page about us*/
+.img_btn{
+	border-radius:50%;
+}
+.about_video_btn{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+	padding-top:20px;
+}
+
+.img-size{
+	object-fit: cover;
+	object-position: center center;
+}
+
+h1{
+	transition:all 4s ease;
+}
+
+.text-block {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: transparent;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+  }
+
+.about_topic{
+	padding-bottom:20px;
+	font-size:70px;
+	font-weight:700;
+	line-height:70px;
+}
+.about_video_text{
+	font-size:20px; 
+	padding-top:20px;
+	font-family:'Yantramanav', sans-serif;
+}
+.about_video_text1{
+	font-size:18px; 
+	padding-top:30px;
+}
+/*end about us*/
+/*index page contact page cssn*/
+.alert-dark{
+	font-family:'Yantramanav', sans-serif;
+	font-size:30px;
+	color: #f1fcff;
+	width:100%;
+	padding-top:10px;
+}
+.alert-dark{
+	background-color: #009affa8;
+	border-color: #39526c;
+}
+.index_contact_btn{
+	background-color:#b4c2cc;
+	height:150px;
+	margin-bottom:50px;
+	padding-top:40px;
+	padding-left:0px;
+}
+.btn-info :hover{
+	background-color:#002e3b;
+	color:#b4c2cc;
+}
+.btn-bg{
+	
+	background-color:#135dd8 !important;
+	color: white;
+}
+.btn-bg:hover{
+	background-color: white !important;
+	color: #0769a9;
+}
+/*end contact*/
+/*cssn related to cards*/
+.card-text{
+	font-family:'Yantramanav', sans-serif;
+}
+.card-body{
+	padding-top:none;
+	color:white;
+}
+
+.middle {
+	transition: .5s cubic-bezier(0.43, -0.25, 0.52, 1.37);
+	position: absolute;
+	top: none;
+	left: 25%;
+	transform: translate(-20%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+  .card:hover .image {
+	opacity: 0.6;
+	filter: blur(6px);
+  	-webkit-filter: blur(6px);
+  }
+  
+  .card-body:hover .middle {
+	opacity: 1;
+	color: rgb(0, 0, 0);
+	font-weight: bolder;	
+  }
+
+/*cssn related to card end*/
+.research-head{
+	font-size:40px;
+	font-weight:300;
+}
+
+.zoom{
+	position: relative;
+	overflow: hidden;
+	border-radius:0.25rem;
+}
+
+.zoom:hover img{
+	transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	border-radius:0.25rem;
+}
+
+.zoom img{
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	border-radius:0.25rem;
+}
+
+.spacer{
+	padding: none;
+}
+.alert-dark{
+	border:none;
+}
+.alert-dark table tr td a .btn-outline-light:hover{
+	background-color: #fff;
+	color: #3da4b9c9;
+}
+
+.card-prop{
+	width: none;
+	height: none;
+	padding-left: none;
+	padding-right: none;
+	
+}
+.card-prop-def{
+
+	width: none;
+	height: none;
+}
+
+.card-hight{
+	height: none;
+}
+
+.card-bold{
+	font-weight: none;
+}
+.card-img .btn-outline-light a{
+	color:white;
+	
+}
+
+.card-img .btn-outline-light{
+	background-color: #00000030;
+}
+
+.zoom .bg-edit{
+	background-color: #00000030;
+}
