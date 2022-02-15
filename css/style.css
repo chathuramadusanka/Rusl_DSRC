@@ -159,15 +159,27 @@ hr {
 
 /* responsive mobile view >>>>>>>>>*/
 
+@media all and (min-width: 1200px) {
+    .flyingbox {
+        width: inherit;
+    }
+}
+
 @media all and (min-width: 821px) {
     .corousel-title1 {
         font-size: none;
+    }
+    .flyingbox {
+        width: fit-content;
     }
 }
 
 @media all and (max-width: 820px) {
     .corousel-title1 {
         font-size: 25px;
+    }
+    .flyingbox {
+        width: inherit;
     }
 }
 
@@ -201,6 +213,9 @@ hr {
     }
     .margin {
         padding-top: 50px;
+    }
+    .flyingbox {
+        width: inherit;
     }
 }
 
@@ -246,6 +261,15 @@ hr {
     }
     .margin {
         padding-top: 70px;
+    }
+    .flyingbox {
+        width: inherit;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .flyingbox {
+        width: inherit;
     }
 }
 
