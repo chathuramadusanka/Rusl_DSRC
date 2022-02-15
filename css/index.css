@@ -247,5 +247,5 @@ h1 {
     z-index: 2;
     right: 0;
     width: none;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
 }
