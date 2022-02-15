@@ -134,6 +134,12 @@ a {
     }
 }
 
+.dropdown-menu {
+    /* GLASSY EFFECT*/
+    background: rgb(192, 192, 192);
+    backdrop-filter: blur(20px);
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }
