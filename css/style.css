@@ -293,3 +293,8 @@ hr {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 300;
 }
+
+.bg-logo-glass {
+    background-color: transparent!important;
+    backdrop-filter: blur(100px);
+}
