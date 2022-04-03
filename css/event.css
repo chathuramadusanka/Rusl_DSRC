@@ -92,6 +92,24 @@ button{
 	padding-left:0px;
 	margin-left:20px;
 }
+.event2{
+	border-radius:7px;
+	border:1px solid #000;
+	padding-left:0px;
+	margin-left:20px;
+}
+.event3{
+	border-radius:7px;
+	border:1px solid #000;
+	padding-left:0px;
+	margin-left:20px;
+}
+.event4{
+	border-radius:7px;
+	border:1px solid #000;
+	padding-left:0px;
+	margin-left:20px;
+}
 .event_button1{
 	margin:10px;
 	background-color:#928CEA;
@@ -139,4 +157,7 @@ button{
 	margin-right:0px;
 	padding-top:10px;
 	padding-bottom:10px;
+}
+.event2:hover + .details{
+	background-image:url('img/flyer2.jpg');
 }
