@@ -16,6 +16,14 @@
     <link rel="stylesheet" href="OwlCarousel/assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="OwlCarousel/assets/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Nav bar scirpts -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("nav/nav.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <!--End of Nav bar script-->
 
 
 </head>
@@ -24,45 +32,20 @@
 <body id="body-prop">
     <!--start navigation bar-->
     <section id="header-nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand deskContent" href="#"><b>D A T D L</b></a>
-            <a class="navbar-brand phoneContent" href="#"><b style="font-size: 36px;">DATDL</b></a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item" style="margin-right:25px;">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#research-row" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Research
-						</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="research.html#sec1">Climatic Changes</a>
-                            <a class="dropdown-item" href="research.html#sec2">Food security and modern farming</a>
-                            <a class="dropdown-item" href="research.html#sec3">Pharmaceuticals</a>
-                            <a class="dropdown-item" href="research.html#sec4">Health related predictive analysis</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							About Us
-						</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="about_us.html">Research Unit</a>
-                            <a class="dropdown-item" href="members.html">Members</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        
+        <div id="nav-placeholder">
+            <script>
+                jQuery(function($) {
+                   var path = window.location.pathname; // because the 'href' property of the DOM element is the absolute path
+                   $('ul li a').each(function() {
+                       if (this.pathname === path) {
+                       $(this).parent().addClass('active');
+                       }
+                       });
+               });
+             </script>            
+        </div>
+    
     </section>
     <!--end navigation bar-->
 
@@ -71,7 +54,7 @@
 
         <!--Research field topic section-->
         <section id="research-head">
-            <div class="row">
+            <div class="row" style="margin-top: 50px;">
                 <div class="col-md-12 research-head">
                     <center>Research Fields</center>
                 </div>
