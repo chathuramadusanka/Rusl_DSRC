@@ -1,17 +1,19 @@
 /**{
 	font-family:'Yantramanav', sans-serif;
 }*/
-*{
+* {
 	font-family: 'Poppins', sans-serif !important;
-	
+
 }
-h5{
+
+h5 {
 	font-weight: 500 !important;
 }
 
-footer{
+footer {
 	font-weight: none !important;
 }
+
 /*
 h2
 {
@@ -96,16 +98,32 @@ margin-left: auto;
 .align-right{
 	text-align: right !important;
 }*/
-.img-fluid, .img-thumbnail {
+.img-fluid,
+.img-thumbnail {
 	max-width: 100%;
 	height: 100%;
- }
-
- ::selection {
-    background: transparent; 
-    
 }
 
-a:hover{
+::selection {
+	background: transparent;
+
+}
+
+a:hover {
 	color: #0056b3 !important;
+}
+
+.timeline>li .timeline-image {
+	z-index: 0 !important;
+}
+
+.team-mem:hover img {
+    transform: scale(1.1);
+	z-index: -1;
+}
+
+.team-mem .timeline-image .overflow img{
+	overflow: hidden;
+	transition: cubic-bezier(0, 0, 0.86, 0.33) 0.3s;
+	
 }
